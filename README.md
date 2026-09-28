@@ -23,7 +23,7 @@ polarization spectrum as a quasi-steady sub-model.
 ## Directory Layout
 
 ```
-Code_to_Github/
+Macrophage-EMT/
 ├── main.m                     ← entry point: baseline simulation (Fig. 1, Fig. 2)
 ├── control.m                  ← global time step τ, spatial step h, end time, N
 ├── parameter.m                ← global model parameters (Table 1 of the paper)
@@ -83,7 +83,7 @@ or a wrapper script. Set the working directory to the repository root
 ### Step 0 — Set up
 
 ```matlab
-cd /path/to/Code_to_Github
+cd /path/to/Macrophage-EMT
 addpath(genpath('.'))
 ```
 
@@ -193,8 +193,6 @@ If you use this code, please cite:
              the EMT Process in Squamous Cell Carcinoma},
   journal = {SIAM J. Life Sci.},
   year    = {2026},
-  note    = {Code available at <URL>}
+  note    = {Code available at https://github.com/jinzhilei/Macrophage-EMT}
 }
 ```
-
-*(Replace `<URL>` with the repository URL when it is published.)*
